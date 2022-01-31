@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Mali',cursive;
+}
+body{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+.btn{
+    color: white;
+    background-color: goldenrod;
+    cursor: pointer; /*ค้างที่ปุ่มจะเป็นรูปมือ*/
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 12px;
+}
+.money-img{
+    height: 57.8vh;
+}
+.currency{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency select{
+    padding: 5px 20px 5px 5px;
+    border : 1px solid #dedede;
+    font-size: 16px;
+    background: transparent; /*;โปร่ง*/
+    appearance : none;
+}
+.currency input{
+    border:0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+.swap-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate{
+    font-size: 20px;
+    padding: 0 10px;
+    color: grey;
+}
+select:focus,input:focus,button:focus{
+    outline: 0;
+} 
